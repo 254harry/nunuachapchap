@@ -1,0 +1,54 @@
+#heading1{
+    text-align: center;
+    color: mediumvioletred;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.paragraph{
+    font-style: italic;
+}
+#division1{
+    background-color: #569c9c;
+    color: white;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+#division1:hover{
+    background-color: #121010;
+}
+#division1 button{
+    background-color: burlywood;
+    width: 180px;
+    height: 50px;
+    color: #121010;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+
+}
+#mercedes{
+    display: flex;
+    margin: 20px;
+}
+#image{
+    margin-right: 20px;
+    border-radius: 600px;
+    width: 200px;
+    height: 200px;
+}
+#main{
+    display: flex;
+}
+.sub{
+    text-align: center;
+    background-color: #569c9c;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px red;
+    color: white;
+}
+.sub:hover{
+    background-color: mediumvioletred;
+}

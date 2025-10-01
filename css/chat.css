@@ -1,0 +1,48 @@
+#all{
+    display: flex;
+    margin-top: 80px;
+    padding-left: 380px;
+
+}
+body{
+    background-color: blueviolet;
+}
+#chat{
+    background-color: deepskyblue;
+    padding: 20px;
+    color: white;
+}
+#contact{
+    background-color: white;
+    padding: 50px;
+}
+legend{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+   font-size: 18px;
+}
+button{
+   display: block;
+    margin: auto;
+    height: 50px;
+    border-radius: 20px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+}
+form input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}

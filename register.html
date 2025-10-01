@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Here!</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+<form action="">
+    <legend>Join Us Today!</legend>
+
+    <label for="firstname">FirstName</label>
+    <input type="text" placeholder="Enter your firstname" id="firstname" required>
+    <br><br>
+
+    <label for="Surname">Surname :</label>
+    <input type="text" placeholder="Enter your surname" id="Surname" required>
+    <br><br>
+    <label for="email">Email Address :</label>
+    <input type="email" placeholder="e.g abc@gmail.com" id="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Type your password" id="password" required>
+    <br><br>
+    <label for="phone">Password:</label>
+    <input type="tel" placeholder="e.g 0786543211" id="phone"  required>
+    <br><br>
+
+    <label for="yob">Birthday :</label>
+    <input type="date" id="yob" required>
+    <br><br>
+    <label for="appointment">Appointment Date and Time :</label>
+    <input type="datetime-local" id="appointment" required>
+    <br><br>
+    <label for="photo">Upload photo :</label>
+    <input type="file" id="photo" required><br><br>
+
+    <label for="nationality">Nationality :</label>
+    <!----dropdown---->
+    <select name="" id="nationality">
+        <option value="" disabled>--Select Nationality--</option>
+        <option value="">Kenyan</option>
+        <option value="">Ugandan</option>
+        <option value="">German</option>
+        <option value="">Italian</option>
+        <option value="">French</option>
+    </select>
+    <br><br>
+<!---radio button--->
+    <p>Choose your favourite football team</p>
+    <input type="radio" id="manchester united" name="team">
+    <label for="manchester united">Manchester United</label>
+    <br>
+    <input type="radio" id="Arsenal" name="team">
+    <label for="manchester united">Arsenal</label>
+    <br>
+    <input type="radio" id="Chelsea" name="team">
+    <label for="manchester united">Chelsea</label>
+    <br>
+    <!----checkbox---->
+    <p>Select Programming language :</p>
+    <input type="checkbox" id="python">
+    <label for="python">python</label>
+    <br>
+    <input type="checkbox" id="PHP">
+    <label for="PHP">PHP</label>
+    <br>
+    <input type="checkbox" id="java">
+    <label for="java">java</label>
+    <br><br>
+    <!-----text area---->
+
+    <label for="message">Describe yourself</label><br>
+    <textarea name="" id="message" cols="40" rows="5" placeholder="type here"></textarea>
+    <br><br>
+    <button type="submit">create An account</button>
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
